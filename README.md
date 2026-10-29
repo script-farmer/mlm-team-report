@@ -1,6 +1,17 @@
 # 多层次团队业绩查询系统
 
-直销/分销团队累计营业额计算 + D3.js 推荐网络可视化。
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![networkx](https://img.shields.io/badge/networkx-graph-orange)
+![D3.js](https://img.shields.io/badge/D3.js-v7-F9A03C)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+**推荐关系表进去，团队业绩树出来。**
+
+直销、分销、微商这类靠"谁推荐了谁"运转的团队，考核永远绕不开同一个问题：某个人名下到底带了多少人、这些人一共做了多少钱。三四层往上一拉 Excel 就乱，手算更不敢信。
+
+这个工具把推荐关系建成有向图，一次算出全部会员的直推人数、团队总人数、团队累计营业额，再把整棵树渲染成可缩放、可点击高亮的 D3 网络图。
+
+![推荐网络可视化示例：30 名会员的团队推荐树，根节点红框标注，括号内为该节点名下的团队人数](assets/network-graph.png)
 
 ## 功能
 
